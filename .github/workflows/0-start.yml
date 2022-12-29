@@ -36,7 +36,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Let's get all the branches
+          fetch-depth: ''
 
       # Update README to close <details id=0> and open <details id=1>
       # and set STEP to '1'
